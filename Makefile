@@ -1,6 +1,6 @@
 VERSION = 3
 PATCHLEVEL = 0
-SUBLEVEL = 75
+SUBLEVEL = 76
 EXTRAVERSION = -SaberKernel_18.5
 NAME = Sneaky Weasel
 
