@@ -154,19 +154,6 @@ static unsigned int get_nr_run_avg(void)
 #define MIN_SAMPLING_RATE			(10000)
 #define MAX_HOTPLUG_RATE			(40u)
 
-#ifdef CONFIG_SK_UC
-#define DEF_MAX_CPU_LOCK			(0)
-#define DEF_MIN_CPU_LOCK			(0)
-#define DEF_CPU_UP_FREQ				(500000)
-#define DEF_CPU_DOWN_FREQ			(140000)
-#define DEF_UP_NR_CPUS				(1)
-#define DEF_CPU_UP_RATE				(10)
-#define DEF_CPU_DOWN_RATE			(20)
-#define DEF_FREQ_STEP				(37)
-#define DEF_START_DELAY				(0)
-
-#define UP_THRESHOLD_AT_MIN_FREQ		(40)
-#define FREQ_FOR_RESPONSIVENESS			(200000)
 #else
 #define DEF_MAX_CPU_LOCK			(0)
 #define DEF_MIN_CPU_LOCK			(0)
